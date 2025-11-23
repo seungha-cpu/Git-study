@@ -30,17 +30,17 @@ git restore --staged 파일명: 스테이징한 파일을 스테이징하지 않
 
 
 연습문제
-user.name easys
-user.email doit@easys.co.kr
-init
-status
-add
-commit -m 'ch01'
-commit -am 'ch02'
-log
-diff
-restore work.txt
-restore --staged work.txt
-reset HEAD^
-reset 커밋 해시
+user.name easys  
+user.email doit@easys.co.kr  
+init  
+status  
+add  
+commit -m 'ch01'  
+commit -am 'ch02'  
+log  
+diff  
+restore work.txt  
+restore --staged work.txt  
+reset HEAD^  
+reset 커밋 해시  
 revert 커밋 해시
